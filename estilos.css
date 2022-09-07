@@ -1,9 +1,17 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
     margin: 0;
     padding: 0;
+    cursor: url(assets/imagenes/cursor.png), auto;
+
+}
+
+a {
+    cursor: url(assets/imagenes/manito.png), auto;
 }
 
 .titulos {
@@ -271,7 +279,9 @@ font-size: 14px;
 margin:1rem;
 }
 
-
+h4 {
+    font-family: 'Playfair Display', serif;
+}
 
 .derechos {
     font-size: larger;
@@ -289,6 +299,7 @@ margin:1rem;
     animation-name:banner;
     animation-duration: 10s;
     animation-iteration-count: infinite;
+    border-radius: 20px;
 }
 
 @keyframes banner {
@@ -325,10 +336,12 @@ margin:1rem;
     border-radius: 20px;
     cursor: default;
     transition:all 400ms ease;    
+
 }
 
 .contenedorbanner__banner1:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
 }
 
 .letrahazclic {
@@ -359,34 +372,43 @@ margin:1rem;
     height:300px;
     justify-content: center;
     margin-top: 1%;
+    transition: all;
 }
 
 
 .bannerimagenes {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
 
 
 .titulosimagenes1a6 {
     text-align:center;
-
+    margin: 2px;
 }
 
 .h3banners {
-    margin-top: 8rem;
+   margin: 15%;
     font-size: 2em;
     max-width:max-content;
+    font-family: 'Playfair Display', serif;
+    
 }
 .pbanners {
-    font-size: 1em;
-    max-width:max-content;
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+  
 }
 
 .imgbanners {
     width: 100%;
     height: fit-content;
+}
+
+.imgbanners1 {
+    border-radius: 20px;
 }
 
 
@@ -411,4 +433,60 @@ margin:1rem;
         justify-content: center;
     
     }
+}
+
+.grillaindex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+
+.grillaindex__0 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    justify-content: center;   
+}
+
+.grillaindex__1 {
+    margin-top: 10px;
+}
+
+.h3bannerss {
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+    margin: 12%;
+    max-width:max-content;
+    font-family: 'Playfair Display', serif;
+}
+
+.pbanners1{
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+}
+
+.btngreen {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    display: inline-block;
+    border-radius: .25rem;
+    min-width: 200px;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 1200px){
+    .grillaindex {
+        display: grid;
+        grid-template-columns: 1fr;
+ 
+}
+
+}
+
+.imggrilla {
+    width: 100%;
+    height: fit-content;
 }
