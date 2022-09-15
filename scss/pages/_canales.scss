@@ -1,0 +1,28 @@
+
+
+.parrafoscanales {
+    font-size: 1.1em;
+}
+
+.botonescanales {
+    display:block; 
+    width: max-content;
+    background-color: #ECC5FB; 
+    border-radius: 10px;
+    padding: 8px;
+    margin: 5px;    
+}
+
+.botonescanales1 {
+text-decoration: none;
+color: black;
+}
+
+.botonescanales:hover {
+    background-color: transparent;
+    border: 2px solid rgb(127, 206, 255) ;
+    color:  rgb(71, 5, 62) ;
+}
+
+
+

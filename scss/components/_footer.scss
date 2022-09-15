@@ -1,0 +1,54 @@
+.informaciondeinteres {
+   
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    border: solid 5px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.informaciondeinteres__servicioalcliente {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top:70px;
+}
+
+.informaciondeinteres__links {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top:70px;
+}
+
+.informaciondeinteres__nuestrobanco {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top:70px;
+}
+
+
+.listafooter__li {
+text-decoration: none;
+list-style: none;
+line-height: 1.5;
+font-size: 14px;
+margin:1rem;
+color: #AD1457;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+.derechos {
+    font-size: larger;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight:bold;
+        
+}

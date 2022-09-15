@@ -1,0 +1,167 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.header__logo {
+   border: 5%  ;
+   width: 100%;
+}
+
+.header__titulo {
+    border: 5%;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.header__ingresar {
+    border: 5% ;
+}
+
+.btn-neon {
+    position: relative;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.1s;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    width: min-content;
+    height: min-content;
+    top: 60%;
+    left: 25%;
+    padding: 2%;
+
+}
+
+.btn-neon:hover {
+    background: #dcaceb;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #eeeeee, 0 0 80px #a945c7;
+    transition-delay: 1s;
+}
+
+.btn-neon span {
+    position: absolute;
+    display: block;
+}
+
+#span1 {
+    top: 0%;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#cb8cdf);
+}
+.btn-neon:hover #span1 {
+    left: 100%;
+    transition: 1s;
+}
+#span2 {
+    top: 0%;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#cb8cdf);
+}
+.btn-neon:hover #span2 {
+    left: 100%;
+    transition: 1s;
+}
+#span3 {
+    bottom: 0%;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#cb8cdf);
+}
+.btn-neon:hover #span3 {
+    right: 100%;
+    transition: 2s;
+}
+
+#span4 {
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#cb8cdf);
+}
+.btn-neon:hover #span4 {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+
+
+.main-menu {
+ list-style: none;
+ margin-top:1%;
+ margin-bottom: 0;
+ padding-left: 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: #e8c9f1;
+ transform: translateY(-100%);
+ transition: transform 0.3s ;  
+ justify-content: space-around; 
+}
+
+
+    a:hover {
+        color: #AD1457;
+    }
+    
+    a:active {
+        color: #311B92;
+    }
+    
+    
+
+.main-menu--show {
+    transform: translateY(0);
+}
+
+.toggle-menu__checkbox:checked + .main-menu {
+    transform: translateY(0);
+}
+
+.toggle-menu__checkbox {
+    display:none;
+}
+
+
+.main-menu__item {
+    padding: 1em;
+} 
+
+.main-menu__link {
+color: rgb(0, 0, 0);
+text-decoration: uppercase;
+text-decoration: none;
+letter-spacing: 2px;
+}
+
+
+.toggle-menu {
+    width: 40px;
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    cursor: pointer;
+    filter: invert(0);
+    z-index: 1;
+}
+
+.hambur {
+    max-width: 100%;
+}
+
+
