@@ -1,3 +1,11 @@
+.wh, .informaciondeinteres, .informaciondeinteres__servicioalcliente, .informaciondeinteres__links, .informaciondeinteres__nuestrobanco {
+  height: 100%;
+  width: 100%; }
+
+.tp, .informaciondeinteres__servicioalcliente, .informaciondeinteres__links, .informaciondeinteres__nuestrobanco {
+  text-align: center;
+  padding-top: 70px; }
+
 .header {
   background-color: white;
   height: 50%;
@@ -137,31 +145,11 @@ a:active {
   max-width: 100%; }
 
 .informaciondeinteres {
-  height: 100%;
-  width: 100%;
   font-size: 20px;
   border: solid 5px white;
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
-
-.informaciondeinteres__servicioalcliente {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  padding-top: 70px; }
-
-.informaciondeinteres__links {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  padding-top: 70px; }
-
-.informaciondeinteres__nuestrobanco {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  padding-top: 70px; }
 
 .listafooter__li {
   text-decoration: none;
@@ -179,6 +167,28 @@ h4 {
   text-align: center;
   font-family: 'Playfair Display', serif;
   font-weight: bold; }
+
+.footer__rrss {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.rs-redes1:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3); }
+
+.rs-redes2:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3); }
+
+.rs-redes3:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3); }
+
+.rs-redes4:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3); }
 
 * {
   margin: 0;
@@ -407,7 +417,7 @@ a {
 
 @media screen and (max-width: 765px) {
   .main-menu {
-    margin-top: 20%; } }
+    margin-top: 25%; } }
 
 .contenedorbanner__banner2 {
   width: 100%;
@@ -423,7 +433,7 @@ a {
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   margin: 1%; }
 
 .contenedorbanner__banner1 {
@@ -431,11 +441,11 @@ a {
   border-radius: 8px solid;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  margin: 20px;
+  margin: 10px;
   background-color: #dfd1e6;
   border-radius: 20px;
   cursor: default;
-  transition: all 400ms ease; }
+  transition: all 150ms ease; }
 
 .contenedorbanner__banner1:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
@@ -466,7 +476,7 @@ a {
   justify-content: center; }
 
 .grillaindex__1 {
-  margin-top: 10px; }
+  margin-top: 8px; }
 
 .h3bannerss {
   font-size: 2em;
@@ -491,7 +501,7 @@ a {
 .imggrilla {
   width: 100%;
   height: fit-content;
-  margin: 25px; }
+  margin: 0; }
 
 @media screen and (max-width: 1200px) {
   .contenedorbanner {
@@ -521,6 +531,10 @@ a {
   background-color: transparent;
   border: 2px solid #7fceff;
   color: #47053e; }
+
+* {
+  margin: 0;
+  padding: 0; }
 
 .imgbanners {
   width: 100%;

@@ -89,7 +89,7 @@ a {
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #cb8cdf); }
+    background: linear-gradient(270deg, transparent, $primary); }
   
   .btn-neon:hover #span3 {
     right: 100%;
@@ -100,7 +100,7 @@ a {
     left: 0%;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #cb8cdf); }
+    background: linear-gradient(360deg, transparent, $primary); }
   
   .btn-neon:hover #span4 {
     bottom: 100%;
@@ -121,7 +121,7 @@ a {
     justify-content: space-around; }
   
   a:hover {
-    color: #AD1457; }
+    color: $fontLight; }
   
   a:active {
     color: #311B92; }
@@ -257,7 +257,10 @@ a {
 
 @media screen and (max-width: 765px){
   .main-menu {
-    margin-top: 20%;
+    margin-top: 25%;
   }    
 
 }
+
+// extends
+

@@ -1,0 +1,23 @@
+$fontLight:#AD1457;
+$primary: #cb8cdf;
+
+
+.wh {
+    height: 100%;
+    width: 100%;
+}
+
+.tp {
+    text-align: center;
+    padding-top:70px;
+}
+
+
+@mixin grillaindexx ($columns) {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat( $columns, 1fr);
+    margin: 1%; 
+}
+
