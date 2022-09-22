@@ -73,15 +73,14 @@
 
 .h3bannerss {
     font-size: 2em;
-    font-family: 'Playfair Display', serif;
+    @extend .fuentexxx;
     margin: 12%;
     max-width:max-content;
-    font-family: 'Playfair Display', serif;
 }
 
 .pbanners1{
     font-size: 1.5em;
-    font-family: 'Playfair Display', serif;
+    @extend .fuentexxx;
 }
 
 .btngreen {

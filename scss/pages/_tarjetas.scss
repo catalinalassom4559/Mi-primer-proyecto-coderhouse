@@ -41,18 +41,21 @@
    margin: 15%;
     font-size: 2em;
     max-width:max-content;
-    font-family: 'Playfair Display', serif;
+    @extend .fuentexxx;
+
     
 }
 .pbanners {
     font-size: 1.5em;
-    font-family: 'Playfair Display', serif;
+    @extend .fuentexxx;
   
 }
 
 .imgbanners {
-    width: 100%;
+    width: 80%;
     height: fit-content;
+    margin: 5%;
+
 }
 
 .imgbanners1 {
@@ -70,7 +73,7 @@
 
 .grillaindex__0 {
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    @extend .fuentexxx;
     justify-content: center;   
 }
 
@@ -80,15 +83,14 @@
 
 .h3bannerss {
     font-size: 2em;
-    font-family: 'Playfair Display', serif;
+    @extend .fuentexxx;
     margin: 12%;
     max-width:max-content;
-    font-family: 'Playfair Display', serif;
 }
 
 .pbanners1{
     font-size: 1.5em;
-    font-family: 'Playfair Display', serif;
+    @extend .fuentexxx;
 }
 
 

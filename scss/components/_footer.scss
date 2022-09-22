@@ -34,13 +34,13 @@ color: $fontLight;
 }
 
 h4 {
-    font-family: 'Playfair Display', serif;
+    @extend .fuentexxx;
 }
 
 .derechos {
     font-size: larger;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    @extend .fuentexxx;
     font-weight:bold;
         
 }

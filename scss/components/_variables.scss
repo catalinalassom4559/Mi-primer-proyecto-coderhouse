@@ -12,6 +12,11 @@ $primary: #cb8cdf;
     padding-top:70px;
 }
 
+.fuentexxx {
+    font-family: 'Playfair Display', serif;
+}
+
+
 
 @mixin grillaindexx ($columns) {
     width: 100%;
@@ -20,4 +25,6 @@ $primary: #cb8cdf;
     grid-template-columns: repeat( $columns, 1fr);
     margin: 1%; 
 }
+
+
 

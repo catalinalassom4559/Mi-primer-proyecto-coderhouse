@@ -6,6 +6,9 @@
   text-align: center;
   padding-top: 70px; }
 
+.fuentexxx, h4, .derechos, .h3bannerss, .pbanners1, .h3banners, .pbanners, .grillaindex__0 {
+  font-family: 'Playfair Display', serif; }
+
 .header {
   background-color: white;
   height: 50%;
@@ -159,13 +162,9 @@ a:active {
   margin: 1rem;
   color: #AD1457; }
 
-h4 {
-  font-family: 'Playfair Display', serif; }
-
 .derechos {
   font-size: larger;
   text-align: center;
-  font-family: 'Playfair Display', serif;
   font-weight: bold; }
 
 .footer__rrss {
@@ -480,14 +479,11 @@ a {
 
 .h3bannerss {
   font-size: 2em;
-  font-family: 'Playfair Display', serif;
   margin: 12%;
-  max-width: max-content;
-  font-family: 'Playfair Display', serif; }
+  max-width: max-content; }
 
 .pbanners1 {
-  font-size: 1.5em;
-  font-family: 'Playfair Display', serif; }
+  font-size: 1.5em; }
 
 .btngreen {
   background-color: black;
@@ -562,16 +558,15 @@ a {
 .h3banners {
   margin: 15%;
   font-size: 2em;
-  max-width: max-content;
-  font-family: 'Playfair Display', serif; }
+  max-width: max-content; }
 
 .pbanners {
-  font-size: 1.5em;
-  font-family: 'Playfair Display', serif; }
+  font-size: 1.5em; }
 
 .imgbanners {
-  width: 100%;
-  height: fit-content; }
+  width: 80%;
+  height: fit-content;
+  margin: 5%; }
 
 .imgbanners1 {
   border-radius: 20px; }
@@ -583,7 +578,6 @@ a {
 
 .grillaindex__0 {
   text-align: center;
-  font-family: 'Playfair Display', serif;
   justify-content: center; }
 
 .grillaindex__1 {
@@ -591,14 +585,11 @@ a {
 
 .h3bannerss {
   font-size: 2em;
-  font-family: 'Playfair Display', serif;
   margin: 12%;
-  max-width: max-content;
-  font-family: 'Playfair Display', serif; }
+  max-width: max-content; }
 
 .pbanners1 {
-  font-size: 1.5em;
-  font-family: 'Playfair Display', serif; }
+  font-size: 1.5em; }
 
 @media screen and (max-width: 600px) {
   .bannerimagenes {
