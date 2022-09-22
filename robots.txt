@@ -1,0 +1,3 @@
+User-agent: *
+Allow /
+Sistemap: https://github.com/catalinalassom4559/Mi-primer-proyecto-coderhouse/sistemap.xml
