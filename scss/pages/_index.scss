@@ -13,8 +13,10 @@
 
 .contenedorbanner {
     @include grillaindexx(3)
-    
-}
+    margin-top: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    }
 
 .contenedorbanner__banner1  {
     text-align: center;
@@ -24,7 +26,6 @@
     margin:10px;
     background-color: rgb(223, 209, 230);
     border-radius: 20px;
-    cursor: default;
     transition:all 150ms ease;    
 
 }
@@ -41,7 +42,6 @@
     overflow: hidden;
     background-color: rgb(223, 209, 230);
     border-radius: 20px;
-    cursor: default;
     transition:all 400ms ease;    
 
 }
@@ -73,24 +73,24 @@
 
 .h3bannerss {
     font-size: 2em;
-    @extend .fuentexxx;
     margin: 12%;
     max-width:max-content;
 }
 
 .pbanners1{
     font-size: 1.5em;
-    @extend .fuentexxx;
+
 }
 
 .btngreen {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 197, 245);
+    color: rgb(2, 2, 2);
     padding: 1rem 2rem;
     display: inline-block;
     border-radius: .25rem;
     min-width: 200px;
     text-decoration: none;
+
 
 }
 
@@ -100,19 +100,26 @@
     width: 100%;
     height: fit-content;
     margin: 0;
-    
+    margin-top: 85px;
+    }
+
+.letrahazclic {
+    text-decoration: none;
+    @extend .fuentexxx;
+    color: $fontLight;
+
 }
 
 
 
-
-
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1000px){
     .contenedorbanner {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        margin:1.5px;
+        background-color: aliceblue;
+        width: 100%;
+        justify-content: center;
+       
     }
      
     .btn-neon {

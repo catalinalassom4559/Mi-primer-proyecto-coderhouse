@@ -48,9 +48,9 @@ h4 {
 
 .footer__rrss {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 .rs-redes1:hover {-webkit-transform:scale(1.3);transform:scale(1.3);}
